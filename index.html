@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Nancy's Portfolio Hub</title>
+    <style>
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #1e90ff;
+            color: white;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 1200px;
+            height: 500px;
+            object-fit: cover;
+        }
+        .profile-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .profile-section img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .featured-work {
+            padding: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .work-item {
+            background-color: white;
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .work-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+       
+
+    </style>
+    <link rel="stylesheet" href="css/navigation.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nancy's Portfolio Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#">More Pages</a>
+                        <div class="dropdown-content">
+                            <a href="skills.html">Skills</a>
+                            <a href="testimonials.html">Testimonials</a>
+                            <a href="hobbies.html">Hobbies</a>
+                            <a href="experience.html">Experience</a>
+                            <a href="education.html">Education</a>
+                            <a href="achievements.html">Achievements</a>
+                            <a href="gallery.html">Gallery</a>
+                            <a href="travel.html">Travel</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="portfolio-detail.html">Portfolio Detail</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to Nancy's Portfolio Hub</h2>
+            <p>Explore my work, achievements, and insights.</p>
+            <img id="hero-image" src="images/Index (2).jpeg" alt="Loading hero image..." />
+            <br>
+            <button>View Portfolio</button>
+        </section>
+
+        <section class="profile-section">
+            <img src="imageprofile.png" alt="Nancy's Profile Image">
+            <h3>Nancy Amin</h3>
+            <p>Web Developer | Designer | Tech Enthusiast</p>
+        </section>
+
+        <section class="featured-work">
+            <div class="work-item">
+                <img id="project-1" src="images/Index (1).jpeg" alt="Loading project image...">
+                <h3>Project 1</h3>
+                <p>A web application for managing tasks with a clean, intuitive design.</p>
+            </div>
+            <div class="work-item">
+                <img id="project-2" src="images/Index.jpeg" alt="Loading project image...">
+                <h3>Project 2</h3>
+                <p>An e-commerce platform with a responsive layout and integrated payment system.</p>
+            </div>
+            <div class="work-item">
+                <img id="project-3" src="images/Index (3).jpeg" alt="Loading project image...">
+                <h3>Project 3</h3>
+                <p>A personal blog website showcasing dynamic content with social sharing features.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nancy Amin. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
